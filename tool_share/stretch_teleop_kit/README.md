@@ -79,7 +79,9 @@ git clone https://github.com/hello-robot/stretch_tool_share
 
 cd ~/repos/stretch_tool_share/tool_share/stretch_teleop_kit/stretch_description
 cp urdf/stretch_teleop_kit.xacro ~/catkin_ws/src/stretch_ros/stretch_description/urdf
+cp urdf/stretch_teleop_kit_dex_wrist.xacro ~/catkin_ws/src/stretch_ros/stretch_description/urdf
 cp urdf/stretch_gazebo.urdf.xacro ~/catkin_ws/src/stretch_ros/stretch_gazebo/urdf/stretch_gazebo.urdf.xacro
+cp urdf/stretch_gazebo_dex_wrist.urdf.xacro ~/catkin_ws/src/stretch_ros/stretch_gazebo/urdf/stretch_gazebo_dex_wrist.urdf.xacro
 cp meshes/*teleop*.STL ~/catkin_ws/src/stretch_ros/stretch_description/meshes
 ```
 
